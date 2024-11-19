@@ -214,7 +214,7 @@ class BankSlip implements \JsonSerializable
 
     public function getDiscountAmount()
     {
-        return $this->DaysBeforeCancel;
+        return $this->DiscountAmount;
     }
 
     public function setDiscountAmount($DiscountAmount = 0)
